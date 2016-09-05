@@ -12,8 +12,8 @@ import java.util.List;
 class DocNavNode {
     private static final String EXTENSION = ".html";
     private static final String URL_BASE = "https://docs.adobe.com";
-    private static final String ROOT_CONTENT = "https://docs.adobe.com/"
-            + "content/docs/jcr:content/sidebar-for-navigation.html?sec="
+    private static final String ROOT_CONTENT = URL_BASE
+            + "/content/docs/jcr:content/sidebar-for-navigation.html?sec="
             + "/content";
 
     public static final String AEM = "/docs/en/aem/6-2";
